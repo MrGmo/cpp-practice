@@ -73,7 +73,6 @@ using namespace std;
 //     cout << "These two nubmers are the same: " << (num1==num2) << endl;
 // }
 
-
 // Logical operators
 // int main() {
 //     bool x = !(1 < 2);
@@ -90,3 +89,86 @@ using namespace std;
 //     }
 // }
 
+//Arrays
+// int main() {
+//     int x = 5;
+//     int arr[] = {1,2,3,4,5};
+//     cout << arr[4] << endl;
+// }
+
+// For Loops
+// int main() {
+//     int arr[] = {10,20,30,40,50,60};
+//     int arrLen = sizeof(arr)/sizeof(arr[0]);
+
+//     for (int i = 0; i < arrLen; i++) {
+//         cout << arr[i] << endl;
+//     }
+// }
+
+// int main() {
+//     int arr[5];
+//     int arrLen = sizeof(arr)/sizeof(arr[0]);
+
+//     for (int i = 0; i < arrLen; i++) {
+//         arr[i] = 999;
+//         cout << arr[i] << endl;
+//     }
+// }
+
+// While Loops
+// int main() {
+//     int input;
+//     while (input != 1 && input != 2) {
+//         cout << "Type the number 1 or 2: ";
+//         cin >> input;
+//     }
+// }
+
+// Do while loop
+// int main() {
+//     int x = 10;
+//     do {
+//         int add;
+//         cout << "Type a number to add to x: ";
+//         cin >> add; 
+//         x += add;
+//         cout << "x is: " << x << endl;
+//     } while (x < 10);
+// }
+
+// Switch statements
+// int main() {
+//     int x = 1;
+//     switch (x+1) {
+//         case 1:
+//             cout << "cool";
+//             break;
+//         case 2:
+//             cout << "not cool";
+//             break;
+//         default:
+//             cout << "anyhting";
+//     }
+// }
+
+// Strings
+// int main() {
+//     string str = "hello world!";
+//     for (int i = 0; i < str.length(); i++) {
+//         char chr = str[i];
+//         cout << chr << endl;
+//     }
+// }
+
+// References
+// int main() {
+//     int a = 2;
+//     int &b = a;
+//     cout << b << endl;
+// }
+
+// Pointers
+int main() {
+    
+}
