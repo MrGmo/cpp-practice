@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <tuple>
 
 using namespace std;
 
@@ -169,6 +170,18 @@ using namespace std;
 // }
 
 // Pointers
+// int main() {
+//     int x[] = {1,2,3};
+//     int len = sizeof(x)/sizeof(x[0]);
+//     int *head = x;
+//     for (int i = 0; i < len; i++) {
+//         head = x + i;
+//         cout << *head << endl;
+//     }
+// }
+
+// Tuples
 int main() {
-    
+    tuple <int,string> person(20,"Bob");
+    cout << get<0>(person) << endl;
 }
