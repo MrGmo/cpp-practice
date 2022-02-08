@@ -3,6 +3,7 @@
 #include <tuple>
 #include <map>
 #include <vector>
+#include <set>
 
 using namespace std;
 
@@ -244,4 +245,61 @@ using namespace std;
 // }
 
 // Sets
+// int main() {
+//     set<char> s1 = {'c', 'd', 'a', 'd', 'c'};
+//     s1.erase('c');
+//     s1.insert('z');
 
+//     for (auto itr = s1.begin(); itr != s1.end(); ++itr) {
+//         cout << *itr << endl;
+//     }
+
+// }
+
+// Looping through sets
+//  int main() {
+//     string test = "This is a test iii jj j hgahs";
+//     string find = "hello";
+//     set <char> exists;
+
+//     for (int i = 0; i < test.length(); ++i) {
+//         char letter = test[i];
+//         exists.insert(letter);
+//     }
+
+//     for (auto itr = exists.begin(); itr != exists.end(); ++itr){
+//         cout << *itr << endl;
+//     }
+// }
+
+// Set usecase
+//  int main() {
+//     string test = "This is a test iii jj j hgahs";
+//     string find = "hello";
+//     set <char> findLetters;
+
+//     for (int i = 0; i < find.length(); ++i) {
+//         char letter = find[i];
+//         findLetters.insert(letter);
+//     }
+
+//     for (int i = 0; i < test.length(); ++i) {
+//         char letter = test[i];
+//         findLetters.erase(letter);
+//     }
+//     if (findLetters.size() > 0) {
+//         cout << "NO! It does not have all letters in the word." << endl;
+//     } else {
+//         cout << "Yes! It does contain all the letters!" << endl;
+//     }
+// }
+
+// Functions
+int add(int x, int y) {
+    return x + y;
+}
+
+int main() {
+    cout << add(2,3) << endl;
+    cout << add(7,3) << endl;
+}
