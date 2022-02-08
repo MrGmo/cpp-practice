@@ -2,6 +2,7 @@
 #include <string>
 #include <tuple>
 #include <map>
+#include <vector>
 
 using namespace std;
 
@@ -225,4 +226,22 @@ using namespace std;
 //         cout << itr->first << ": " << itr->second << endl;
 //     }
 // }
+
+// Vectors
+// int main() {
+//     vector<int> v1 = {1,2,3};
+//     v1.push_back(9);
+//     v1.pop_back();
+//     v1.erase(v1.begin());
+
+//     for (int i = 0; i < v1.size(); ++i) {
+//         cout << v1[i] << endl;
+//     }
+
+//     for (auto itr = v1.begin(); itr != v1.end(); ++i) {
+//         cout << *itr << endl;
+//     }
+// }
+
+// Sets
 
