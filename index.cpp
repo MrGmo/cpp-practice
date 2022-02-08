@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <tuple>
+#include <map>
 
 using namespace std;
 
@@ -181,7 +182,47 @@ using namespace std;
 // }
 
 // Tuples
-int main() {
-    tuple <int,string> person(20,"Bob");
-    cout << get<0>(person) << endl;
-}
+// int main() {
+//     tuple <int, string> person(20, "bob");
+//     cout << get<1>(person) << endl;
+
+//     tuple <char, int> thing;
+//     thing = make_tuple('h', 56);
+//     cout << get<1>(thing) << endl;
+// }
+
+// Maps
+// int main() {
+//     map <char, int> mp = {
+//         {'T', 7},
+//         {'S', 8},
+//         {'a', 4}
+//     };
+//     mp['u'] = 9;
+//     pair <char,int> p1('j', 5);
+//     mp.insert(p1);
+//     cout << mp.size() << endl;
+
+//     for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+//         cout << itr->first << endl;
+//         cout << (*itr).second << endl;
+//     }
+// }
+
+// Simple map usecase
+// int main() {
+//     string test = "Hello world my name is bob! bbblaaahhhh";
+//     map <char, int> mp;
+//     for (int i = 0; i < test.length(); i++) {
+//         char letter = test[i];
+//         if (mp.find(letter) == mp.end()) {
+//             mp[letter] = 1;
+//         } else {
+//             mp[letter] += 1;
+//         }
+//     }
+//     for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+//         cout << itr->first << ": " << itr->second << endl;
+//     }
+// }
+
