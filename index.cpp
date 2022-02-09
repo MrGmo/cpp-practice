@@ -295,11 +295,28 @@ using namespace std;
 // }
 
 // Functions
-int add(int x, int y) {
-    return x + y;
+// int add(int x, int y) {
+//     return x + y;
+// }
+
+// int main() {
+//     cout << add(2,3) << endl;
+// }
+
+
+// Pass by refernce/pointer
+void swap(int *x, int *y) {
+    int temp = *x;
+    *x = *y;
+    *y = temp;
 }
 
 int main() {
-    cout << add(2,3) << endl;
-    cout << add(7,3) << endl;
+    int a = 2;
+    int b = 4;
+    cout << a << endl;
+    cout << b << endl;
+    swap(&a, &b);
+    cout << a << endl;
+    cout << b << endl;
 }
